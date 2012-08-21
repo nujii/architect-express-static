@@ -1,0 +1,27 @@
+{
+  "name": "architect-express-static",
+  "description": "Static folder configuration for Express/Architect",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Nujii Labs",
+    "email": "developer@nujii.com"
+  },
+  "contributors": [ 
+    { "name": "Cameron Bytheway", "email": "cameron@nujii.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nujii/architect-express-static.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~2.5.11",
+    "architect-express": "~0.0.1",
+    "architect-logger": "~0.0.1"
+  },
+  "plugin": {
+    "consumes": ["logger","express"],
+    "provides": ["static"]
+  }
+}
