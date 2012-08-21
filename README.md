@@ -6,9 +6,9 @@ This plugin adds a static folder configuration to an express/architect system
 
 ```json
 {
-  packagePath: "./node_modules/architect-express-static",
-  path: "./assets/js",
-  mount: "/js"
+  "packagePath": "./node_modules/architect-express-static",
+  "path": "./assets/js",
+  "mount": "/js"
 }
 ```
 
