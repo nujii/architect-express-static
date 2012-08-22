@@ -22,6 +22,6 @@
   },
   "plugin": {
     "consumes": ["logger","express"],
-    "provides": ["static"]
+    "provides": []
   }
 }
